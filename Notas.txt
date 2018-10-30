@@ -1,0 +1,21 @@
+https://stackblitz.com/
+
+Angular = SPA Single Page Application
+    pro=> más rapido navegar en la web
+    contra => SEO
+            => Tarda más en la carga inicial
+SOLUCION: => Angular Universal: javascript isomorfico (Se puede usar igual en cliente que en server)
+    La primera carga se hace en servidor y manda HTML a usuario, luego se va cargando en cliente para
+    la siguiente navegación
+
+{{}} -> Interpolacion
+event binding -> cuando lo metemos como (click)=add()
+
+modulo javascript si tiene import y export
+modulo de angular o ngmodules, no es lo mismo, sino partes de la aplicación (app.module.ts)
+
+Emmet => completa cosas como p>lorem a un lorem ipsum.... 
+
+ng generate component NOMBRE
+ng g c NOMBRE => (Component)
+ng g p NOMBRE => (PIPE)
