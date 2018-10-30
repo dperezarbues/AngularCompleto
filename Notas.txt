@@ -16,6 +16,8 @@ modulo de angular o ngmodules, no es lo mismo, sino partes de la aplicación (ap
 
 Emmet => completa cosas como p>lorem a un lorem ipsum.... 
 
+Angular console => para manejar desde el escritorio lo mismo que hacemos con el angular CLI
+
 ng generate component NOMBRE
 ng g c NOMBRE => (Component)
 ng g p NOMBRE => (PIPE)
