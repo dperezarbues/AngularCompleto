@@ -19,3 +19,4 @@ Emmet => completa cosas como p>lorem a un lorem ipsum....
 ng generate component NOMBRE
 ng g c NOMBRE => (Component)
 ng g p NOMBRE => (PIPE)
+ng g s NOMBRE => (SERVICIO)
