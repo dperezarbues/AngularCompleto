@@ -1,0 +1,4 @@
+<h1>Enter a Country</h1>
+<input [(ngModel)] = countryName>
+<button (click) = showCapital()>Search Capital</button>
+<h3 *ngFor="let c of capital">{{c}}</h3>
