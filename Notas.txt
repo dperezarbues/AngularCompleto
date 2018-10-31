@@ -38,3 +38,13 @@ Modulo JS => cualquier fichero .ts
 Modulo Angular => ngModule
 
 Ready for readable Code? => John Papa
+
+NG CLI
+ng g c nombre --dry-run => SOLO TE DICE LO QUE HARÍA, sin hacerlo (-d es lo mismo)
+
+ng g p nombre --flat => no crea la estructura de carpetas
+ng g p carpeta/nombre --flat => defino yo la carpeta que quiero
+
+ng g p nombre --inline-template
+
+Para configurar el cli => se usa schematics de angular (https://blog.angular.io/schematics-an-introduction-dc1dfbc2a2b2)
