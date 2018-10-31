@@ -22,3 +22,17 @@ ng generate component NOMBRE
 ng g c NOMBRE => (Component)
 ng g p NOMBRE => (PIPE)
 ng g s NOMBRE => (SERVICIO)
+
+SERVICIOS:
+el @Injectable no significa que sea un servicio, sino que se le pueden meter servicios inyectados.
+Si tiene una etiqueta @Component, @Pipe => Ya por defecto permite inyección
+
+
+Tree-shaking: Cuando se hace AoT compilation, detecta el codigo que se usa y el que no, y sólo se manda al cliente el
+que realmente se utiliza.
+Si metemos el servicio en el providers del Modulo, el servicio no es tree-shakable. Si se mete al revés en 
+@Injectable({provideIn: 'root'}) Dices que lo que estás creando y el modulo desde donde lo quieres servir, 
+desde el root en este caso.
+
+Modulo JS => cualquier fichero .ts
+Modulo Angular => 
