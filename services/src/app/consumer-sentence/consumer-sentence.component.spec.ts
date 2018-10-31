@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ConsumerSentenceComponent } from './consumer-sentence.component';
+import { SentencesService } from '../sentences.service';
 
 describe('ConsumerSentenceComponent', () => {
   let component: ConsumerSentenceComponent;
@@ -8,7 +9,8 @@ describe('ConsumerSentenceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ConsumerSentenceComponent ]
+      declarations: [ ConsumerSentenceComponent ],
+      providers: [SentencesService]
     })
     .compileComponents();
   }));
