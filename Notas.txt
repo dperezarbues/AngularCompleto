@@ -35,4 +35,6 @@ Si metemos el servicio en el providers del Modulo, el servicio no es tree-shakab
 desde el root en este caso.
 
 Modulo JS => cualquier fichero .ts
-Modulo Angular => 
+Modulo Angular => ngModule
+
+Ready for readable Code? => John Papa
